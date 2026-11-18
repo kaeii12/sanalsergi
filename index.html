@@ -1,0 +1,16 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Okulumuz Sanal Sergisi</title>
+<link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"}}</script>
+</head><body class="g">
+<div id="hud"><b id="sec">Okulumuz</b>Sanal sergiye hoş geldiniz</div>
+<a id="adm" href="admin.html">Yönetim</a>
+<div id="help">W A S D / ok tuşları: yürü · Fareyle sürükle: bak · Fotoğrafa tıkla: büyüt</div>
+<div id="pad"><span></span><button data-k="w">▲</button><span></span><button data-k="a">◀</button><button data-k="s">▼</button><button data-k="d">▶</button></div>
+<div id="lb" class="hidden"><img alt=""><h2></h2><p></p></div>
+<script>
+function showErr(m){var d=document.createElement("div");d.style.cssText="position:fixed;top:5rem;left:1rem;right:1rem;background:#b3392f;color:#fff;padding:.8rem 1rem;border-radius:6px;z-index:9;font:14px sans-serif";d.textContent="Sayfa yüklenemedi: "+m;document.body.append(d);}
+addEventListener("error",function(e){showErr((e.message||"bir dosya yüklenemedi")+(e.target&&e.target.src?" ("+e.target.src+")":""))},true);
+addEventListener("unhandledrejection",function(e){showErr(e.reason&&e.reason.message||e.reason)});
+</script>
+<script type="module" src="gallery.js"></script></body></html>
