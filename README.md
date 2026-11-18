@@ -1,3 +1,5 @@
+
+
 # 🏫 Okul Sanal Sergisi — 3D Fotoğraf Galerisi
 
 **Okulların kendi fotoğraf sergilerini üç boyutlu, internetten erişilebilir bir galeride yayınlamasını sağlayan açık kaynak olarak paylaşılmaya hazır örnek web projesi.** Her okul kendi Supabase veritabanını ve yönetici hesabını kullanır; başlangıçta okul veya bölüm bilgisi girilmiş değildir.
